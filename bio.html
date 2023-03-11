@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <head>
         <title>Bio Generator</title>
         <style>
@@ -22,4 +22,32 @@
         <h1>Bio Generated Successfully</h1>
         <p>{{ bio }}</p>
     </body>
+</html> -->
+<html>
+  <head>
+    <title>Bio Generator</title>
+    <style>
+      /* Add some basic styling to the form */
+      label, input {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="submit"] {
+        margin-top: 20px;
+      }
+  
+      body {
+      background-color: #ffe3f2;
+      color: #333;
+      font-family: Arial, sans-serif;
+    } 
+    </style>
+  </head>
+  <body>
+    <h2>Generated Bio:</h2>
+    <p><strong>Name:</strong> {{name}}</p>
+    <p><strong>Bio:</strong></p>
+    <div>{{bio}}</div>
+  </body>
 </html>
+

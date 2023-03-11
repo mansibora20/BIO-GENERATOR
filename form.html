@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <head>
         <title>Bio Generator</title>
         <style>
@@ -32,4 +32,41 @@
             <input type="submit" value="Generate Bio">
         </form>
     </body>
+</html> -->
+
+<html>
+  <head>
+    <title>Bio Generator</title>
+    <style>
+        /* Add some basic styling to the form */
+        label, input {
+          display: block;
+          margin-bottom: 10px;
+        }
+        input[type="submit"] {
+          margin-top: 20px;
+        }
+    
+        body {
+        background-color: #f2f2f2;
+        color: #333;
+        font-family: Arial, sans-serif;
+      } 
+      </style>
+</head>
+<body>
+  <h2>Enter Your Information:</h2>
+  <form method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="age">Age:</label><br>
+    <input type="text" id="age" name="age"><br>
+    <label for="profession">Profession:</label><br>
+    <input type="text" id="profession" name="profession"><br>
+    <label for="interests">Hobbies:</label><br>
+    <input type="text" id="hobbies" name="hobbies"><br><br>
+    <input type="submit" value="Generate Bio">
+  </form>
+</body>
 </html>
+
